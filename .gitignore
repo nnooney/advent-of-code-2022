@@ -1,4 +1,6 @@
 .direnv/
+input/
 
-# Build outputs
-target/
+# Added by cargo
+
+/target
