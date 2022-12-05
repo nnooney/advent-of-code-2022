@@ -3,6 +3,10 @@
 This repository contains solutions to https://adventofcode.com/2022 written in
 Rust.
 
+Input is not stored alongside this repository; instead, the program expects each
+day's input to be stored in `./input/day#.txt`, for example `./input/day2.txt`
+or `./input/day20.txt`.
+
 ## Usage with NixOS
 
 Use the Nix flake-based ecosystem for working with this repository.
