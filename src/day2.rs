@@ -32,8 +32,8 @@ pub fn day_two() {
         ("C Z", 7), // 6 for win, 1 for rock
     ]);
 
-    const DAY_TWO_FILE: &str = "./input/day2.txt";
-    let file = File::open(DAY_TWO_FILE).expect("Cannot open file");
+    const INPUT_FILE: &str = "./input/day2.txt";
+    let file = File::open(INPUT_FILE).expect("Cannot open file");
     let reader = BufReader::new(file);
 
     let mut sum_choice = 0;

@@ -5,8 +5,8 @@ use std::io::BufReader;
 pub fn day_one() {
     println!("Day 1:");
 
-    const DAY_ONE_FILE: &str = "./input/day1.txt";
-    let file = File::open(DAY_ONE_FILE).expect("Cannot open file");
+    const INPUT_FILE: &str = "./input/day1.txt";
+    let file = File::open(INPUT_FILE).expect("Cannot open file");
     let reader = BufReader::new(file);
 
     let mut vec: Vec<u64> = Vec::new();
